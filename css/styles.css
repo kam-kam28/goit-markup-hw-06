@@ -55,7 +55,9 @@ ul{list-style: none;
         line-height: 24px;
         letter-spacing: 0.03em;
 }
-
+.subtitle{
+    background-color: #F5F4FA;
+}
  
 .footer{
     background-color:#2F303A;
@@ -63,4 +65,22 @@ ul{list-style: none;
 }
 .logo-footer{
     color:#FFFFFF ;
+}
+.maps-footer{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.link-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
 }
