@@ -1,6 +1,7 @@
 body{
     background-color: #F5F5F5;
     color:#212121;
+    font-family: roboto ;
 }
 
 ul{list-style: none;
@@ -22,6 +23,7 @@ ul{list-style: none;
 
 .link{
     color: #212121;
+    
 
 }
 .link:hover{
@@ -30,12 +32,15 @@ ul{list-style: none;
 .title{
     color:#FFFFFF;
     background-color: #2F303A;
+    
 }
 
 .button{
+    font-family: inherit;
+        cursor: pointer;
     color: #FFFFFF;
-    background-color: #2196F3;
-}
+    background-color: #2196F3;}
+    
 
 .titels{
     color: #212121
