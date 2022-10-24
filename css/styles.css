@@ -1,11 +1,10 @@
 body{
     background-color: #F5F5F5;
     color:#212121;
-    font-family: roboto ;
+    font-family: roboto;
 }
 
 ul{list-style: none;
-
 }
 .logo{
     color:#2196F3;
@@ -20,6 +19,8 @@ ul{list-style: none;
 .logo-header{
     color:#000000;
 }
+
+
 
 .link{
     color: #212121;
@@ -52,6 +53,7 @@ ul{list-style: none;
         text-align: center;
         letter-spacing: 0.03em;
 }
+
 .lead{
     color: #757575 ;
     font-family: 'Roboto';
