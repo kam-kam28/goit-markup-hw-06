@@ -2,6 +2,7 @@ body{
     background-color: #F5F5F5;
     color:#212121;
     font-family: roboto;
+    letter-spacing: 0.03em;
 }
 
 ul{list-style: none;
@@ -12,7 +13,7 @@ ul{list-style: none;
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.1
     letter-spacing: 0.03em;
 
 }
@@ -49,9 +50,8 @@ ul{list-style: none;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
+        line-height:1.16;
+      
 }
 
 .lead{
@@ -60,8 +60,8 @@ ul{list-style: none;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
+        line-height: 1.7
+        
 }
 .subtitle{
     background-color: #F5F4FA;
@@ -81,8 +81,8 @@ ul{list-style: none;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-    letter-spacing: 0.03em;
+        line-height: 1.7
+   
 }
 .link-footer{
     color: rgba(255, 255, 255, 0.6);
@@ -90,6 +90,6 @@ ul{list-style: none;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
+        line-height: 1.7
+        
 }
