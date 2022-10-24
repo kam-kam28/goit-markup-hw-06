@@ -26,23 +26,48 @@ ul{list-style: none;
 .link{
     color: #212121;
     
-
 }
+
 .link:hover{
     color: #2196F3;
 }
+
 .title{
     color:#FFFFFF;
     background-color: #2F303A;
     
 }
 
-.button{
+.btn{
+    color: #FFFFFF;
+    background-color: #2196F3;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+}
+
+.button{ 
     font-family: inherit;
         cursor: pointer;
-    color: #FFFFFF;
-    background-color: #2196F3;}
+    color:#000000;
+    background-color: #F5F4FA;;
     
+
+}
+.button:hover{
+    background-color: #2196F3
+
+}
+
+
 
 .titels{
     color: #212121
@@ -92,4 +117,9 @@ ul{list-style: none;
         font-size: 14px;
         line-height: 1.7
         
+}
+.image{
+
+background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
