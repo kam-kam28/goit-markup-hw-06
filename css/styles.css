@@ -1,11 +1,16 @@
 body{
     background-color: #F5F5F5;
     color:#212121;
-    font-family: roboto;
+    font-family:'Roboto',sans-serif;
     letter-spacing: 0.03em;
+    font-size: 14px;
 }
-
+:root{ --primary-text-color:rgba(33, 33, 33, 1);
+    --title-text-color:rgba(117, 117, 117, 1);
+    --accent-color:rgba(33, 150, 243, 1);
+}
 ul{list-style: none;
+
 }
 .logo{
     color:#2196F3;
@@ -13,34 +18,46 @@ ul{list-style: none;
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 1.1
+        line-height: 1.1;
     letter-spacing: 0.03em;
+    text-decoration-line: none;
 
 }
 .logo-header{
-    color:#000000;
+    color:var(--primary-text-color)
 }
 
 
 
 .link{
-    color: #212121;
-    
+    color: var(--primary-text-color);
+
 }
+
 
 .link:hover{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
+
 .title{
-    color:#FFFFFF;
     background-color: #2F303A;
     
 }
 
+.title-text{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+
+}
+
 .btn{
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color:rgba(33, 150, 243, 1);
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -51,41 +68,42 @@ font-family: 'Roboto';
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
 }
 
+
 .button{ 
-    font-family: inherit;
-        cursor: pointer;
     color:#000000;
     background-color: #F5F4FA;;
-    
+   cursor: pointer;
+   font-family: inherit;
+   
 
 }
 .button:hover{
-    background-color: #2196F3
+    background-color: #2196F3;
+    color:#FFFFFF;
 
 }
 
 
-
 .titels{
-    color: #212121
+    color:var(--primary-text-color)
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height:1.16;
+        text-align: center;
       
 }
 
 .lead{
-    color: #757575 ;
+    color: var(--title-text-color);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 1.7
+        line-height: 1.7;
         
 }
 .subtitle{
@@ -106,16 +124,16 @@ font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 1.7
+        line-height: 1.7;
    
 }
 .link-footer{
-    color: rgba(255, 255, 255, 0.6);
+    color:var(--title-text-color)
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 1.7
+        line-height: 1.7;
         
 }
 .image{
