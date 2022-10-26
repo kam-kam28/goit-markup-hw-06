@@ -33,6 +33,10 @@ ul{list-style: none;
     color:var(--plus-color)
 }
 
+.link.current{
+    color: var(--accent-color);
+}
+
 
 .link{
     color: var(--primary-text-color);
@@ -110,7 +114,7 @@ font-weight: 500;
     line-height: 1.6;
 text-align: center;
     letter-spacing: 0.03em;
-
+border-style: none;
 }
 .button:hover{
     background-color: #2196F3;
