@@ -37,10 +37,12 @@ ul{list-style: none;
 .link{
     color: var(--primary-text-color);
     text-decoration: none;
-   color:currentColor;
 font-weight: 500;
 
 }
+
+
+
 .link:active{
     color: var(--accent-color);
 }
@@ -93,6 +95,7 @@ font-family: 'Roboto';
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+   
 }
 
 
