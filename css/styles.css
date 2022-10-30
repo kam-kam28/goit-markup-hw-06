@@ -43,12 +43,21 @@ p{
    text-decoration: none;
    color: currentColor;
 }
-.image{
-    display: block;
+.header-container{
+    display:flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    
 }
 
 
 .logo{
+
     color:#2196F3;
     font-family: 'Raleway';
         font-style: normal;
@@ -60,6 +69,7 @@ p{
 
 }
 .logo-header{
+  
     color:var(--plus-color)
 }
 
@@ -68,7 +78,8 @@ p{
 }
 
 
-.link{
+.link{ 
+    margin-left:50px ;
     color: var(--primary-text-color);
     text-decoration: none;
 font-weight: 500;
@@ -88,6 +99,8 @@ font-weight: 500;
 }
 
 .link-item{
+    gap: 50px;
+    padding: 32px;
     color:var(--title-text-color);
     text-decoration: none;
        
