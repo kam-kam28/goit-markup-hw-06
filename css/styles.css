@@ -225,7 +225,9 @@ border-style: none;
         line-height: 1.7;
         
 }
-.image{display: block;
+.image{
+   
+   padding: 215px;
     max-width: 100%;
     height: auto;
 margin-bottom: 20px;
