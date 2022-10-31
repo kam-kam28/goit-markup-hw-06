@@ -132,7 +132,8 @@ line-height: 1.4;
     display: flex;
     align-items: center;
     text-align: center;
-   
+   margin-left: auto;
+   margin-right: auto;
     padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
@@ -216,11 +217,13 @@ border-style: none;
     color:#FFFFFF;
 }
 .item-footer{
+    
     color: #FFFFFF;
         line-height: 1.7;
    
 }
 .link-footer{
+   
     color:rgba(255, 255, 255, 0.6);
         line-height: 1.7;
         
@@ -236,6 +239,7 @@ background: #FFFFFF;
 
     
 }
+
 .titele-item{
     margin-bottom: 10px;
 
@@ -303,5 +307,9 @@ color: var(--primary-text-color);}
     justify-content:center;
     gap: 8px;
 
-
+}
+.box-images{
+    display: flex;
+    flex-wrap: wrap;
+   
 }
