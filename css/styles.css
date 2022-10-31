@@ -45,6 +45,7 @@ p{
 }
 .header-container{
     display:flex;
+    justify-content: center;
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -128,16 +129,15 @@ line-height: 1.4;
 }
 
 .btn{
-  
-    padding: 10px 32px;
-    min-width: 152px;
-    min-height: 30px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
     display: flex;
     align-items: center;
     text-align: center;
+   
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+   
     letter-spacing: 0.06em;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -152,6 +152,7 @@ line-height: 1.4;
 .button{ border-radius: 4px;
     padding: 6px 32px;
     margin-bottom: 34px;
+   
    
     color:var(--primary-text-color);
     background-color: #F5F4FA;
@@ -242,6 +243,7 @@ background: #FFFFFF;
     text-transform: uppercase;}
 
 .titele-text{
+    
     margin-bottom: 10px;
         font-weight: 500;
         font-size: 16px;
@@ -282,4 +284,21 @@ color: var(--primary-text-color);}
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+.tit{
+    display: flex;
+   justify-content:flex-start;
+   gap: 30px;
+}
+.team{
+    display: flex;
+        justify-content: space-between;
+        gap: 30px;
+       
+}
+.key{display: flex;
+    justify-content:center;
+    gap: 8px;
+
+
 }
