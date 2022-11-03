@@ -43,12 +43,14 @@ p{
    text-decoration: none;
    color: currentColor;
 }
+
 .header-container{
     display:flex;
     justify-content: center;
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+   
 }
 .nav{
     display: flex;
@@ -206,6 +208,7 @@ border-style: none;
         
 }
 .subtitle{
+    margin-bottom: auto;
     background-color: #F5F4FA;
 }
  
