@@ -319,13 +319,11 @@ color: var(--primary-text-color);}
     display:flex;
     gap: 30px;
 
-
 }
 
 .team{
     display: flex;
     flex-wrap: wrap;
-        
         background-color: darkgreen;
    
        
@@ -344,8 +342,6 @@ padding-bottom: 30px;
     gap: 8px;
 
 }
-
-
 
     
 .box-images {
