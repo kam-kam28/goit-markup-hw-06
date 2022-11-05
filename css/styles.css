@@ -46,8 +46,7 @@ img{
 
 }
 .header{
-    padding-top: 24px ;
-    padding-bottom: 25px ;
+  
 }
 .link{
    text-decoration: none;
@@ -56,10 +55,9 @@ img{
 
 .header-container{
     display:flex;
-    justify-content: center;
+    
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+   
 
 }
 .nav{
@@ -70,10 +68,14 @@ img{
 }
 .menu{
     display: flex;
+    padding-top: 32px ;
+    padding-bottom: 32px;
 }
 
 .logo{
 
+    padding-top:24px ;
+    padding-bottom: 25px;
     color:#2196F3;
     font-family: 'Raleway';
         font-style: normal;
@@ -125,6 +127,11 @@ font-weight: 500;
     color:var(--accent-color);
 }
 
+
+.contacts{display: flex;
+
+    margin-left: auto;
+}
 .hero{
     padding-top: 200px;
     padding-bottom: 200px;
@@ -199,16 +206,7 @@ border-style: none;
 }
 
 
-.titels{
-    margin-bottom: 50px;
-    color:var(--primary-text-color);
-        line-height:1.16;
-        text-align: center;
-            font-weight: 700;
-            font-size: 36px;
-            text-align: center;
-            letter-spacing: 0.03em;     
-}
+
 
 .lead{
    
@@ -224,11 +222,7 @@ border-style: none;
     background-color: #F5F4FA;
 }
  
-.footer{
-    background-color:#2F303A;
-  
-     
-}
+
 .logo-footer{
     color:#FFFFFF;
 }
@@ -258,7 +252,7 @@ background: #FFFFFF;
     display:flex;
     justify-content:first baseline;
     margin-bottom: 10px;
-
+font-size: 14px;
     font-weight: 700;
     line-height: 1.4;
     letter-spacing: 0.03em;
@@ -270,6 +264,7 @@ background: #FFFFFF;
   width: 270px;
   line-height: 1.7;
   color: var(--title-text-color);
+  
     
         }
 
@@ -319,7 +314,19 @@ color: var(--primary-text-color);}
 .tit{
     display:flex;
     gap: 30px;
+   
 
+}
+
+.titels {
+    margin-bottom: 50px;
+    color: var(--primary-text-color);
+    line-height: 1.16;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team{
@@ -373,4 +380,9 @@ padding-bottom: 30px;
 .links-footer{
     margin-top: 20px;
     
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
 }
