@@ -142,6 +142,16 @@ font-weight: 500;
     
 }
 
+.hero{
+    max-width: 1600px;
+        margin: 0 auto;
+    background-image: url(../css/images/Img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
 .title-text{
 
     width: 696px;
