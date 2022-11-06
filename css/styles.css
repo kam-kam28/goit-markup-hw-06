@@ -70,12 +70,11 @@ header{
 }
 .menu{
     display: flex;
-    padding-top: 32px ;
-    padding-bottom: 32px;
     gap: 50px;
 }
 
 .logo{
+    margin-right: 93px;
 
     padding-top:24px ;
     padding-bottom: 25px;
@@ -99,8 +98,9 @@ header{
 }
 
 
-.link{ 
-    margin-left:50px ;
+.link{ padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--primary-text-color);
     text-decoration: none;
 font-weight: 500;
