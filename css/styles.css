@@ -415,3 +415,28 @@ display: flex;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.7;}
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;}
+    
+    
+            .socials-link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                background-color:red;
+                color: rgb(48, 48, 48);
+                
+            }
+    
+            .list{
+                list-style: none;
+                    margin: 0;
+                    padding: 0;
+            }
