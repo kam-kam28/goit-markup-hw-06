@@ -430,14 +430,52 @@ display: flex;
                 width: 44px;
                 height: 44px;
                 border-radius: 50%;
-              background-color: aqua;
-
+                background-color: #fff;
+                    color:#AFB1B8;
+                }
                 
-            }
-    
+                .socials-link:hover,
+                .socials-link:focus {
+                   
+                    color:white;
+                    background-color:var(--accent-color);
+                }
+                
+                .socials-icon {
+                    fill: currentColor;
+                }
+
             .list{
                 list-style: none;
                     margin: 0;
                     padding: 0;
             }
+.lead{
+    margin-bottom: 16px;
+}
+.companies{display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 
+}
+.companies-item{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+            height: 92px;
+            border: 1px solid #AFB1B8;
+                border-radius: 4px;
+        background-color: #fff;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.footer-socials{
+   
+}
+.socials-footer{
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+}
