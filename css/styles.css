@@ -501,7 +501,6 @@ display: flex;
     margin-bottom: 16px;
 }
 .companies{display: flex;
-    
     gap: 30px;
 
 }
@@ -519,9 +518,27 @@ fill: #AFB1B8;
 
 .companies-item:hover,
 .companies-item:focus{
-    fill: var(--accent-color);
+  fill:#2196F3;
 border: 1px solid #2196F3;
+
 }
+
+.compani-clients{
+    background-color: #fff;
+        fill: #AFB1B8;
+
+        
+       
+}
+
+.compani-clients:hover,
+.compani-clients:focus{
+    fill: #2196F3;
+    
+        
+}
+
+
 
 
 .socials-footer{
