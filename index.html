@@ -410,6 +410,13 @@
                             </li>
                         </ul>
               </div>
+              <div class="mail-subs">
+                <p class="mail-subs-par">Підпишіться на розсилку</p>
+                <label>
+                    <input class="mail-subs-input" type="text" name="user_mail" id="user_mail" placeholder="E-mail">
+                    <button class="btn-submit" type="submit">Підписатися</button>
+                </label>
+              </div>
         </div>
     </footer>
 <!--Modal window-->
@@ -446,18 +453,19 @@
     </svg>
 </div>
 <label class="modal-form-label" for="user_massage">Коментар</label>
-<textarea class="modal-form-massage" name="user_massage" id="user_massage"  rows="6"></textarea>
+<textarea class="modal-form-massage" name="user_massage" id="user_massage" placeholder=" Введіть текст" rows="6"></textarea >
 
     
 
 </div>
-<div role="group">
+<div class="modal-form-agreement" role="group">
 <input class="modal-form-checkbox" type="checkbox" id="user_agreement">
-<label for="user_agreement">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
+<label class="modal-form-agreement-desc" for="user_agreement">Погоджуюся з розсилкою та приймаю 
+    <a class="modal-form-agreement-link" href="">Умови договору</a></label>
 
 
 </div>
-<button class="modal-form-btn" type="submit">Відправити</button >
+<button class="modal-form-btn btn" type="submit">Відправити</button >
    </form>
 </div>
 </div>
